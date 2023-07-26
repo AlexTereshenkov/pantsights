@@ -1,0 +1,514 @@
+[
+    {
+        "id": 0,
+        "file": "MANIFEST.in",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 1,
+        "file": "//:cheeseshop-query-wheel",
+        "dependencies": 1,
+        "dependencies_transitive": 11,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 2,
+        "file": "setup.py",
+        "dependencies": 1,
+        "dependencies_transitive": 1,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 3,
+        "file": "cheeseshop:main-project-version",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 4,
+        "file": "cheeseshop/VERSION",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 3,
+        "dependees_transitive": 3
+    },
+    {
+        "id": 5,
+        "file": "cheeseshop/__init__.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 6,
+        "file": "cheeseshop/configs.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 2,
+        "dependees_transitive": 8
+    },
+    {
+        "id": 7,
+        "file": "cheeseshop/version.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 4,
+        "dependees_transitive": 5
+    },
+    {
+        "id": 8,
+        "file": "cheeseshop/cli:cheeseshop-query",
+        "dependencies": 1,
+        "dependencies_transitive": 10,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 9,
+        "file": "cheeseshop/cli/__init__.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 10,
+        "file": "cheeseshop/cli/cli.py",
+        "dependencies": 6,
+        "dependencies_transitive": 9,
+        "dependees": 2,
+        "dependees_transitive": 2
+    },
+    {
+        "id": 11,
+        "file": "cheeseshop/cli/utils/__init__.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 12,
+        "file": "cheeseshop/cli/utils/utils.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 2,
+        "dependees_transitive": 4
+    },
+    {
+        "id": 13,
+        "file": "cheeseshop/repository/__init__.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 14,
+        "file": "cheeseshop/repository/package.py",
+        "dependencies": 2,
+        "dependencies_transitive": 3,
+        "dependees": 5,
+        "dependees_transitive": 8
+    },
+    {
+        "id": 15,
+        "file": "cheeseshop/repository/properties.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 4,
+        "dependees_transitive": 9
+    },
+    {
+        "id": 16,
+        "file": "cheeseshop/repository/query.py",
+        "dependencies": 1,
+        "dependencies_transitive": 4,
+        "dependees": 3,
+        "dependees_transitive": 5
+    },
+    {
+        "id": 17,
+        "file": "cheeseshop/repository/repository.py",
+        "dependencies": 3,
+        "dependencies_transitive": 5,
+        "dependees": 3,
+        "dependees_transitive": 6
+    },
+    {
+        "id": 18,
+        "file": "cheeseshop/repository/types.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 19,
+        "file": "cheeseshop/repository/parsing/__init__.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 20,
+        "file": "cheeseshop/repository/parsing/casts.py",
+        "dependencies": 1,
+        "dependencies_transitive": 1,
+        "dependees": 3,
+        "dependees_transitive": 11
+    },
+    {
+        "id": 21,
+        "file": "cheeseshop/repository/parsing/exceptions.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 5,
+        "dependees_transitive": 12
+    },
+    {
+        "id": 22,
+        "file": "pants-plugins:packaging",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 5,
+        "dependees_transitive": 10
+    },
+    {
+        "id": 23,
+        "file": "pants-plugins:pants#pantsbuild.pants",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 8,
+        "dependees_transitive": 10
+    },
+    {
+        "id": 24,
+        "file": "pants-plugins:pants#pantsbuild.pants.testutil",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 5,
+        "dependees_transitive": 5
+    },
+    {
+        "id": 25,
+        "file": "pants-plugins:pytest",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 3,
+        "dependees_transitive": 4
+    },
+    {
+        "id": 26,
+        "file": "pants-plugins/requirements-pants-plugins.lock:_pants-plugins_lockfile",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 27,
+        "file": "pants-plugins/internal_plugins/project_version/__init__.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 6
+    },
+    {
+        "id": 28,
+        "file": "pants-plugins/internal_plugins/project_version/register.py",
+        "dependencies": 3,
+        "dependencies_transitive": 3,
+        "dependees": 1,
+        "dependees_transitive": 6
+    },
+    {
+        "id": 29,
+        "file": "pants-plugins/internal_plugins/project_version/rules.py",
+        "dependencies": 1,
+        "dependencies_transitive": 1,
+        "dependees": 5,
+        "dependees_transitive": 7
+    },
+    {
+        "id": 30,
+        "file": "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py",
+        "dependencies": 5,
+        "dependencies_transitive": 5,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 31,
+        "file": "pants-plugins/internal_plugins/project_version/rules_git_test.py",
+        "dependencies": 5,
+        "dependencies_transitive": 5,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 32,
+        "file": "pants-plugins/internal_plugins/project_version/rules_goal_test.py",
+        "dependencies": 5,
+        "dependencies_transitive": 5,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 33,
+        "file": "pants-plugins/internal_plugins/project_version/rules_test.py",
+        "dependencies": 5,
+        "dependencies_transitive": 5,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 34,
+        "file": "pants-plugins/internal_plugins/project_version/tailor.py",
+        "dependencies": 1,
+        "dependencies_transitive": 1,
+        "dependees": 3,
+        "dependees_transitive": 7
+    },
+    {
+        "id": 35,
+        "file": "pants-plugins/internal_plugins/project_version/tailor_test.py",
+        "dependencies": 5,
+        "dependencies_transitive": 5,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 36,
+        "file": "pants-plugins/internal_plugins/project_version/target_types.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 7,
+        "dependees_transitive": 9
+    },
+    {
+        "id": 37,
+        "file": "requirements#click",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 2,
+        "dependees_transitive": 3
+    },
+    {
+        "id": 38,
+        "file": "requirements#jc",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 39,
+        "file": "requirements#loguru",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 3,
+        "dependees_transitive": 12
+    },
+    {
+        "id": 40,
+        "file": "requirements#packaging",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 3,
+        "dependees_transitive": 9
+    },
+    {
+        "id": 41,
+        "file": "requirements#python-dateutil",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 2,
+        "dependees_transitive": 12
+    },
+    {
+        "id": 42,
+        "file": "requirements#requests",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 7
+    },
+    {
+        "id": 43,
+        "file": "requirements#setuptools",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 44,
+        "file": "requirements#tabulate",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 45,
+        "file": "requirements#typing-extensions",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 9
+    },
+    {
+        "id": 46,
+        "file": "requirements:requirements-test#coverage",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 47,
+        "file": "requirements:requirements-test#pytest",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 4,
+        "dependees_transitive": 4
+    },
+    {
+        "id": 48,
+        "file": "requirements:requirements-test#pytest-vcr",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 49,
+        "file": "requirements:requirements-test#tabulate",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 0
+    },
+    {
+        "id": 50,
+        "file": "requirements/requirements-test.txt:requirements-test",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 4
+    },
+    {
+        "id": 51,
+        "file": "requirements/requirements.lock:_python-default_lockfile",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 13
+    },
+    {
+        "id": 52,
+        "file": "requirements/requirements.txt",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 13
+    },
+    {
+        "id": 53,
+        "file": "tests/cli/cassettes/test_cli_info.yaml",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 2
+    },
+    {
+        "id": 54,
+        "file": "tests/cli/cassettes/test_cli_list_versions.yaml",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 2
+    },
+    {
+        "id": 55,
+        "file": "tests/cli/test_cli.py",
+        "dependencies": 2,
+        "dependencies_transitive": 10,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 56,
+        "file": "tests/pantstests/package_name",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 57,
+        "file": "tests/pantstests:shell-script-to-prepare-test-data",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 58,
+        "file": "tests/pantstests/test_commands.py",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 59,
+        "file": "tests/pantstests/write_test_package_name.sh:shell-scripts",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 0,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 60,
+        "file": "tests/repository/cassettes/test_get_repository_package.yaml",
+        "dependencies": 0,
+        "dependencies_transitive": 0,
+        "dependees": 1,
+        "dependees_transitive": 3
+    },
+    {
+        "id": 61,
+        "file": "tests/repository/test_query.py",
+        "dependencies": 3,
+        "dependencies_transitive": 5,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 62,
+        "file": "tests/repository/test_repository.py",
+        "dependencies": 2,
+        "dependencies_transitive": 6,
+        "dependees": 1,
+        "dependees_transitive": 1
+    },
+    {
+        "id": 63,
+        "file": "tests/repository/parsing/test_casts.py",
+        "dependencies": 2,
+        "dependencies_transitive": 2,
+        "dependees": 1,
+        "dependees_transitive": 1
+    }
+]

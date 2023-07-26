@@ -1,0 +1,1309 @@
+{
+    "MANIFEST.in": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "//": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "cli",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "cli.py",
+                                    "id": "3",
+                                    "children": []
+                                },
+                                {
+                                    "name": "utils",
+                                    "id": "4",
+                                    "children": [
+                                        {
+                                            "name": "utils.py",
+                                            "id": "5",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "configs.py",
+                            "id": "6",
+                            "children": []
+                        },
+                        {
+                            "name": "repository",
+                            "id": "7",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "8",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "9",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "10",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "11",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "12",
+                                    "children": []
+                                },
+                                {
+                                    "name": "query.py",
+                                    "id": "13",
+                                    "children": []
+                                },
+                                {
+                                    "name": "repository.py",
+                                    "id": "14",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "version.py",
+                            "id": "15",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "setup.py",
+                    "id": "16",
+                    "children": []
+                }
+            ]
+        }
+    },
+    "setup.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "version.py",
+                            "id": "2",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/VERSION": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/__init__.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/configs.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/version.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/cli": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "cli",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "cli.py",
+                                    "id": "3",
+                                    "children": []
+                                },
+                                {
+                                    "name": "utils",
+                                    "id": "4",
+                                    "children": [
+                                        {
+                                            "name": "utils.py",
+                                            "id": "5",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "configs.py",
+                            "id": "6",
+                            "children": []
+                        },
+                        {
+                            "name": "repository",
+                            "id": "7",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "8",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "9",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "10",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "11",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "12",
+                                    "children": []
+                                },
+                                {
+                                    "name": "query.py",
+                                    "id": "13",
+                                    "children": []
+                                },
+                                {
+                                    "name": "repository.py",
+                                    "id": "14",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "version.py",
+                            "id": "15",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop/cli/__init__.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/cli/cli.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "cli",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "utils",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "utils.py",
+                                            "id": "4",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "configs.py",
+                            "id": "5",
+                            "children": []
+                        },
+                        {
+                            "name": "repository",
+                            "id": "6",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "7",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "8",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "9",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "10",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "11",
+                                    "children": []
+                                },
+                                {
+                                    "name": "query.py",
+                                    "id": "12",
+                                    "children": []
+                                },
+                                {
+                                    "name": "repository.py",
+                                    "id": "13",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "version.py",
+                            "id": "14",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop/cli/utils/__init__.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/cli/utils/utils.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/repository/__init__.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/repository/package.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "repository",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "parsing",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "5",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "6",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop/repository/properties.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/repository/query.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "repository",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "3",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "4",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "6",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "7",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop/repository/repository.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "configs.py",
+                            "id": "2",
+                            "children": []
+                        },
+                        {
+                            "name": "repository",
+                            "id": "3",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "4",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "5",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "7",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "8",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop/repository/types.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/repository/parsing/__init__.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "cheeseshop/repository/parsing/casts.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "repository",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "parsing",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "4",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "cheeseshop/repository/parsing/exceptions.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "pants-plugins": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "pants-plugins/requirements-pants-plugins.lock": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/__init__.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/register.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "rules.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "tailor.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "6",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/rules.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "4",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "__init__.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "register.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "rules.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "tailor.py",
+                                            "id": "7",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "8",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/rules_git_test.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "__init__.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "register.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "rules.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "tailor.py",
+                                            "id": "7",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "8",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/rules_goal_test.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "__init__.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "register.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "rules.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "tailor.py",
+                                            "id": "7",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "8",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/rules_test.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "__init__.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "register.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "rules.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "tailor.py",
+                                            "id": "7",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "8",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/tailor.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "4",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/tailor_test.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "pants-plugins",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "internal_plugins",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "project_version",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "__init__.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "register.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "rules.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "tailor.py",
+                                            "id": "7",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "target_types.py",
+                                            "id": "8",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "pants-plugins/internal_plugins/project_version/target_types.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#click": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#jc": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#loguru": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#packaging": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#python-dateutil": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#requests": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#setuptools": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#tabulate": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements#typing-extensions": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements/requirements-test.txt": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements/requirements.lock": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "requirements/requirements.txt": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/cli/cassettes/test_cli_info.yaml": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/cli/cassettes/test_cli_list_versions.yaml": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/cli/test_cli.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "cli",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "cli.py",
+                                    "id": "3",
+                                    "children": []
+                                },
+                                {
+                                    "name": "utils",
+                                    "id": "4",
+                                    "children": [
+                                        {
+                                            "name": "utils.py",
+                                            "id": "5",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "configs.py",
+                            "id": "6",
+                            "children": []
+                        },
+                        {
+                            "name": "repository",
+                            "id": "7",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "8",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "9",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "10",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "11",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "12",
+                                    "children": []
+                                },
+                                {
+                                    "name": "query.py",
+                                    "id": "13",
+                                    "children": []
+                                },
+                                {
+                                    "name": "repository.py",
+                                    "id": "14",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "version.py",
+                            "id": "15",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tests/pantstests/package_name": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/pantstests": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/pantstests/test_commands.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/pantstests/write_test_package_name.sh": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/repository/cassettes/test_get_repository_package.yaml": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": []
+        }
+    },
+    "tests/repository/test_query.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "repository",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "3",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "4",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "5",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "6",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "7",
+                                    "children": []
+                                },
+                                {
+                                    "name": "query.py",
+                                    "id": "8",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tests/repository/test_repository.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "configs.py",
+                            "id": "2",
+                            "children": []
+                        },
+                        {
+                            "name": "repository",
+                            "id": "3",
+                            "children": [
+                                {
+                                    "name": "package.py",
+                                    "id": "4",
+                                    "children": []
+                                },
+                                {
+                                    "name": "parsing",
+                                    "id": "5",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "6",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "7",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "properties.py",
+                                    "id": "8",
+                                    "children": []
+                                },
+                                {
+                                    "name": "repository.py",
+                                    "id": "9",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tests/repository/parsing/test_casts.py": {
+        "data": {
+            "id": "0",
+            "name": "Project",
+            "children": [
+                {
+                    "name": "cheeseshop",
+                    "id": "1",
+                    "children": [
+                        {
+                            "name": "repository",
+                            "id": "2",
+                            "children": [
+                                {
+                                    "name": "parsing",
+                                    "id": "3",
+                                    "children": [
+                                        {
+                                            "name": "casts.py",
+                                            "id": "4",
+                                            "children": []
+                                        },
+                                        {
+                                            "name": "exceptions.py",
+                                            "id": "5",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

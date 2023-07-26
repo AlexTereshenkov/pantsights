@@ -1,0 +1,229 @@
+{
+    "MANIFEST.in": [],
+    "//:cheeseshop-query-wheel": [],
+    "setup.py": [
+        "setup.py"
+    ],
+    "cheeseshop:main-project-version": [],
+    "cheeseshop/VERSION": [
+        "cheeseshop/cli/__init__.py",
+        "cheeseshop/cli/cli.py",
+        "tests/cli/test_cli.py"
+    ],
+    "cheeseshop/__init__.py": [
+        "cheeseshop/__init__.py"
+    ],
+    "cheeseshop/configs.py": [
+        "cheeseshop/__init__.py",
+        "cheeseshop/repository/repository.py"
+    ],
+    "cheeseshop/version.py": [
+        "cheeseshop/__init__.py",
+        "cheeseshop/cli/cli.py",
+        "setup.py",
+        "tests/cli/test_cli.py"
+    ],
+    "cheeseshop/cli:cheeseshop-query": [],
+    "cheeseshop/cli/__init__.py": [
+        "cheeseshop/cli/__init__.py"
+    ],
+    "cheeseshop/cli/cli.py": [
+        "cheeseshop/cli/__init__.py",
+        "tests/cli/test_cli.py"
+    ],
+    "cheeseshop/cli/utils/__init__.py": [
+        "cheeseshop/cli/utils/__init__.py"
+    ],
+    "cheeseshop/cli/utils/utils.py": [
+        "cheeseshop/cli/cli.py",
+        "cheeseshop/cli/utils/__init__.py"
+    ],
+    "cheeseshop/repository/__init__.py": [
+        "cheeseshop/repository/__init__.py"
+    ],
+    "cheeseshop/repository/package.py": [
+        "cheeseshop/cli/cli.py",
+        "cheeseshop/repository/__init__.py",
+        "cheeseshop/repository/query.py",
+        "cheeseshop/repository/repository.py",
+        "tests/repository/test_query.py"
+    ],
+    "cheeseshop/repository/properties.py": [
+        "cheeseshop/cli/cli.py",
+        "cheeseshop/repository/__init__.py",
+        "cheeseshop/repository/package.py",
+        "tests/repository/test_query.py"
+    ],
+    "cheeseshop/repository/query.py": [
+        "cheeseshop/cli/cli.py",
+        "cheeseshop/repository/__init__.py",
+        "tests/repository/test_query.py"
+    ],
+    "cheeseshop/repository/repository.py": [
+        "cheeseshop/cli/cli.py",
+        "cheeseshop/repository/__init__.py",
+        "tests/repository/test_repository.py"
+    ],
+    "cheeseshop/repository/types.py": [
+        "cheeseshop/repository/__init__.py"
+    ],
+    "cheeseshop/repository/parsing/__init__.py": [
+        "cheeseshop/repository/parsing/__init__.py"
+    ],
+    "cheeseshop/repository/parsing/casts.py": [
+        "cheeseshop/repository/package.py",
+        "cheeseshop/repository/parsing/__init__.py",
+        "tests/repository/parsing/test_casts.py"
+    ],
+    "cheeseshop/repository/parsing/exceptions.py": [
+        "cheeseshop/repository/parsing/__init__.py",
+        "cheeseshop/repository/parsing/casts.py",
+        "cheeseshop/repository/repository.py",
+        "tests/repository/parsing/test_casts.py",
+        "tests/repository/test_repository.py"
+    ],
+    "pants-plugins:packaging": [
+        "pants-plugins/internal_plugins/project_version/__init__.py",
+        "pants-plugins/internal_plugins/project_version/register.py",
+        "pants-plugins/internal_plugins/project_version/rules.py",
+        "pants-plugins/internal_plugins/project_version/tailor.py",
+        "pants-plugins/internal_plugins/project_version/target_types.py"
+    ],
+    "pants-plugins:pants#pantsbuild.pants": [
+        "pants-plugins/internal_plugins/project_version/register.py",
+        "pants-plugins/internal_plugins/project_version/rules.py",
+        "pants-plugins/internal_plugins/project_version/rules_git_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_goal_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_test.py",
+        "pants-plugins/internal_plugins/project_version/tailor.py",
+        "pants-plugins/internal_plugins/project_version/tailor_test.py",
+        "pants-plugins/internal_plugins/project_version/target_types.py"
+    ],
+    "pants-plugins:pants#pantsbuild.pants.testutil": [
+        "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_git_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_goal_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_test.py",
+        "pants-plugins/internal_plugins/project_version/tailor_test.py"
+    ],
+    "pants-plugins:pytest": [
+        "pants-plugins/internal_plugins/project_version/rules_goal_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_test.py",
+        "pants-plugins/internal_plugins/project_version/tailor_test.py"
+    ],
+    "pants-plugins/requirements-pants-plugins.lock:_pants-plugins_lockfile": [],
+    "pants-plugins/internal_plugins/project_version/__init__.py": [
+        "pants-plugins/internal_plugins/project_version/__init__.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/register.py": [
+        "pants-plugins/internal_plugins/project_version/__init__.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/rules.py": [
+        "pants-plugins/internal_plugins/project_version/__init__.py",
+        "pants-plugins/internal_plugins/project_version/register.py",
+        "pants-plugins/internal_plugins/project_version/rules_git_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_goal_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py": [
+        "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/rules_git_test.py": [
+        "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/rules_goal_test.py": [
+        "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/rules_test.py": [
+        "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/tailor.py": [
+        "pants-plugins/internal_plugins/project_version/__init__.py",
+        "pants-plugins/internal_plugins/project_version/register.py",
+        "pants-plugins/internal_plugins/project_version/tailor_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/tailor_test.py": [
+        "pants-plugins/internal_plugins/project_version/rules_full_pants_test.py"
+    ],
+    "pants-plugins/internal_plugins/project_version/target_types.py": [
+        "pants-plugins/internal_plugins/project_version/__init__.py",
+        "pants-plugins/internal_plugins/project_version/register.py",
+        "pants-plugins/internal_plugins/project_version/rules.py",
+        "pants-plugins/internal_plugins/project_version/rules_goal_test.py",
+        "pants-plugins/internal_plugins/project_version/rules_test.py",
+        "pants-plugins/internal_plugins/project_version/tailor.py",
+        "pants-plugins/internal_plugins/project_version/tailor_test.py"
+    ],
+    "requirements#click": [
+        "cheeseshop/cli/cli.py",
+        "tests/cli/test_cli.py"
+    ],
+    "requirements#jc": [],
+    "requirements#loguru": [
+        "cheeseshop/cli/cli.py",
+        "cheeseshop/repository/parsing/casts.py",
+        "cheeseshop/repository/repository.py"
+    ],
+    "requirements#packaging": [
+        "cheeseshop/repository/package.py",
+        "cheeseshop/repository/query.py",
+        "tests/repository/test_query.py"
+    ],
+    "requirements#python-dateutil": [
+        "cheeseshop/repository/parsing/casts.py",
+        "tests/repository/parsing/test_casts.py"
+    ],
+    "requirements#requests": [
+        "cheeseshop/repository/repository.py"
+    ],
+    "requirements#setuptools": [
+        "setup.py"
+    ],
+    "requirements#tabulate": [],
+    "requirements#typing-extensions": [
+        "cheeseshop/repository/package.py"
+    ],
+    "requirements:requirements-test#coverage": [],
+    "requirements:requirements-test#pytest": [
+        "tests/cli/test_cli.py",
+        "tests/repository/parsing/test_casts.py",
+        "tests/repository/test_query.py",
+        "tests/repository/test_repository.py"
+    ],
+    "requirements:requirements-test#pytest-vcr": [],
+    "requirements:requirements-test#tabulate": [],
+    "requirements/requirements-test.txt:requirements-test": [],
+    "requirements/requirements.lock:_python-default_lockfile": [],
+    "requirements/requirements.txt": [],
+    "tests/cli/cassettes/test_cli_info.yaml": [
+        "tests/cli/cassettes/test_cli_info.yaml"
+    ],
+    "tests/cli/cassettes/test_cli_list_versions.yaml": [
+        "tests/cli/cassettes/test_cli_info.yaml"
+    ],
+    "tests/cli/test_cli.py": [
+        "tests/cli/test_cli.py"
+    ],
+    "tests/pantstests/package_name": [
+        "tests/pantstests/test_commands.py"
+    ],
+    "tests/pantstests:shell-script-to-prepare-test-data": [
+        "tests/pantstests/test_commands.py"
+    ],
+    "tests/pantstests/test_commands.py": [
+        "tests/pantstests/test_commands.py"
+    ],
+    "tests/pantstests/write_test_package_name.sh:shell-scripts": [],
+    "tests/repository/cassettes/test_get_repository_package.yaml": [
+        "tests/repository/cassettes/test_get_repository_package.yaml"
+    ],
+    "tests/repository/test_query.py": [
+        "tests/repository/test_query.py"
+    ],
+    "tests/repository/test_repository.py": [
+        "tests/repository/test_query.py"
+    ],
+    "tests/repository/parsing/test_casts.py": [
+        "tests/repository/parsing/test_casts.py"
+    ]
+}

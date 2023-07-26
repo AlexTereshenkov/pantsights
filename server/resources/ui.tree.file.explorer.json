@@ -1,0 +1,381 @@
+{
+    "data": {
+        "id": "0",
+        "name": "Project",
+        "children": [
+            {
+                "name": "MANIFEST.in",
+                "id": "1",
+                "children": []
+            },
+            {
+                "name": "",
+                "id": "2",
+                "children": [
+                    {
+                        "name": "",
+                        "id": "3",
+                        "children": [
+                            {
+                                "name": "",
+                                "id": "4",
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "setup.py",
+                "id": "5",
+                "children": []
+            },
+            {
+                "name": "cheeseshop",
+                "id": "6",
+                "children": [
+                    {
+                        "name": "VERSION",
+                        "id": "7",
+                        "children": []
+                    },
+                    {
+                        "name": "__init__.py",
+                        "id": "8",
+                        "children": []
+                    },
+                    {
+                        "name": "configs.py",
+                        "id": "9",
+                        "children": []
+                    },
+                    {
+                        "name": "version.py",
+                        "id": "10",
+                        "children": []
+                    },
+                    {
+                        "name": "cli",
+                        "id": "11",
+                        "children": [
+                            {
+                                "name": "__init__.py",
+                                "id": "12",
+                                "children": []
+                            },
+                            {
+                                "name": "cli.py",
+                                "id": "13",
+                                "children": []
+                            },
+                            {
+                                "name": "utils",
+                                "id": "14",
+                                "children": [
+                                    {
+                                        "name": "__init__.py",
+                                        "id": "15",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "utils.py",
+                                        "id": "16",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "repository",
+                        "id": "17",
+                        "children": [
+                            {
+                                "name": "__init__.py",
+                                "id": "18",
+                                "children": []
+                            },
+                            {
+                                "name": "package.py",
+                                "id": "19",
+                                "children": []
+                            },
+                            {
+                                "name": "properties.py",
+                                "id": "20",
+                                "children": []
+                            },
+                            {
+                                "name": "query.py",
+                                "id": "21",
+                                "children": []
+                            },
+                            {
+                                "name": "repository.py",
+                                "id": "22",
+                                "children": []
+                            },
+                            {
+                                "name": "types.py",
+                                "id": "23",
+                                "children": []
+                            },
+                            {
+                                "name": "parsing",
+                                "id": "24",
+                                "children": [
+                                    {
+                                        "name": "__init__.py",
+                                        "id": "25",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "casts.py",
+                                        "id": "26",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "exceptions.py",
+                                        "id": "27",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "pants-plugins",
+                "id": "28",
+                "children": [
+                    {
+                        "name": "requirements-pants-plugins.lock",
+                        "id": "29",
+                        "children": []
+                    },
+                    {
+                        "name": "internal_plugins",
+                        "id": "30",
+                        "children": [
+                            {
+                                "name": "project_version",
+                                "id": "31",
+                                "children": [
+                                    {
+                                        "name": "__init__.py",
+                                        "id": "32",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "register.py",
+                                        "id": "33",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "rules.py",
+                                        "id": "34",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "rules_full_pants_test.py",
+                                        "id": "35",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "rules_git_test.py",
+                                        "id": "36",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "rules_goal_test.py",
+                                        "id": "37",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "rules_test.py",
+                                        "id": "38",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "tailor.py",
+                                        "id": "39",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "tailor_test.py",
+                                        "id": "40",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "target_types.py",
+                                        "id": "41",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "requirements#click",
+                "id": "42",
+                "children": []
+            },
+            {
+                "name": "requirements#jc",
+                "id": "43",
+                "children": []
+            },
+            {
+                "name": "requirements#loguru",
+                "id": "44",
+                "children": []
+            },
+            {
+                "name": "requirements#packaging",
+                "id": "45",
+                "children": []
+            },
+            {
+                "name": "requirements#python-dateutil",
+                "id": "46",
+                "children": []
+            },
+            {
+                "name": "requirements#requests",
+                "id": "47",
+                "children": []
+            },
+            {
+                "name": "requirements#setuptools",
+                "id": "48",
+                "children": []
+            },
+            {
+                "name": "requirements#tabulate",
+                "id": "49",
+                "children": []
+            },
+            {
+                "name": "requirements#typing-extensions",
+                "id": "50",
+                "children": []
+            },
+            {
+                "name": "requirements",
+                "id": "51",
+                "children": [
+                    {
+                        "name": "requirements-test.txt",
+                        "id": "52",
+                        "children": []
+                    },
+                    {
+                        "name": "requirements.lock",
+                        "id": "53",
+                        "children": []
+                    },
+                    {
+                        "name": "requirements.txt",
+                        "id": "54",
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "tests",
+                "id": "55",
+                "children": [
+                    {
+                        "name": "cli",
+                        "id": "56",
+                        "children": [
+                            {
+                                "name": "cassettes",
+                                "id": "57",
+                                "children": [
+                                    {
+                                        "name": "test_cli_info.yaml",
+                                        "id": "58",
+                                        "children": []
+                                    },
+                                    {
+                                        "name": "test_cli_list_versions.yaml",
+                                        "id": "59",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "test_cli.py",
+                                "id": "60",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "pantstests",
+                        "id": "61",
+                        "children": [
+                            {
+                                "name": "package_name",
+                                "id": "62",
+                                "children": []
+                            },
+                            {
+                                "name": "test_commands.py",
+                                "id": "63",
+                                "children": []
+                            },
+                            {
+                                "name": "write_test_package_name.sh",
+                                "id": "64",
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "repository",
+                        "id": "65",
+                        "children": [
+                            {
+                                "name": "cassettes",
+                                "id": "66",
+                                "children": [
+                                    {
+                                        "name": "test_get_repository_package.yaml",
+                                        "id": "67",
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "test_query.py",
+                                "id": "68",
+                                "children": []
+                            },
+                            {
+                                "name": "test_repository.py",
+                                "id": "69",
+                                "children": []
+                            },
+                            {
+                                "name": "parsing",
+                                "id": "70",
+                                "children": [
+                                    {
+                                        "name": "test_casts.py",
+                                        "id": "71",
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
