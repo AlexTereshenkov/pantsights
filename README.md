@@ -9,6 +9,16 @@ The application provides a UI:
 - find shortest path between two nodes
 - explore and compare the metrics of graph nodes (e.g. number of dependencies and dependents)
 
+## Demo
+
+### Navigating transitive dependencies as directory tree + shortest path
+
+![Listing transitive dependencies](docs/deps.gif)
+
+### Exploring metrics for all modules as data grid
+
+![Navigating metrics](docs/metrics.gif)
+
 ## Start server
 
 It would be great to have `networkx` like library in JavaScript,
@@ -23,13 +33,13 @@ source .serverenv/bin/activate
 pip install networkx
 ```
 
-Install:
+Install `nodejs>=16` on your system and run these commands:
 
 ```
-npm init -y (?)
+cd server
+npm init -y
 npm i express
 npm i cors
-npm install next@latest
 ```
 
 Start:
@@ -41,7 +51,10 @@ npm start
 
 ## Start client
 
+Install `yarn` on your system and run these commands in the root of the repository:
+
 ```
+npm install next@latest
 yarn add @mui/x-data-grid
 yarn dev
 ```
